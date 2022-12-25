@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Test2" />
+        <module name="TestJenkins" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Test2" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
